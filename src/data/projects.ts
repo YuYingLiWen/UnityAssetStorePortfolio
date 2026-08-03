@@ -1,8 +1,8 @@
 import brickBreaker from "../assets/brick_breaker.gif";
 import cornellBox from "../assets/cornell_box.jpg";
 import danbar from "../assets/Danbar.gif";
-import logicalCircuit from "../assets/Logical_circuit.gif";
-import playground from "../assets/playground.gif";
+import logicalCircuit from "../assets/Logical_Circuit.gif";
+import playground from "../assets/Playground.gif";
 import terrain from "../assets/terrain.jpg";
 import yurock from "../assets/yurock.gif";
 
