@@ -1,7 +1,7 @@
 import ProjectCard from "./ProjectCard";
 import PageHeader from "./PageHeader";
 import projects from "./data/projects";
-import "./Home.css";
+import "./home.css";
 
 
 export default function Home() {
