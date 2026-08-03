@@ -1,7 +1,6 @@
 export default {
-    name: "Your Name",
-    email: "your.email@example.com",
-    github: "https://github.com/yourusername",
-    linkedin: "https://www.linkedin.com/in/yourusername",
-    website: "https://yourwebsite.com"
+    name: "Yu Ying LI WEN",
+    email: "liwenyuying@yahoo.ca",
+    github: "https://github.com/YuYingLiWen",
+    linkedin: "https://ca.linkedin.com/in/yu-ying-li-wen",
 };

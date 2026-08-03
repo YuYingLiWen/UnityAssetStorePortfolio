@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 export default function Sidebar() {
     return (
         <aside className="sidebar bg-dark text-white">
-            <h3 className="p-3"> Yu Ying Li Wen </h3>
+            <h3 className="p-3"> Yu Ying LI WEN</h3>
             <nav className="nav flex-column">
                 <NavLink
                     to="/"

@@ -7,7 +7,7 @@ export default function Contact() {
         <div>
             <PageHeader
                 title="Contact"
-                description="Get in touch with me."
+                description="Let's get in touch!"
             />
 
             <div className="card">
@@ -18,45 +18,33 @@ export default function Contact() {
                     </h5>
 
                     <p className="card-text">
-                        Email:{" "}
+                        <i className="bi bi-envelope-fill me-2"></i>
                         <a href={`mailto:${contact.email}`}>
                             {contact.email}
                         </a>
                     </p>
 
                     <p className="card-text">
-                        GitHub:{" "}
+                        <i className="bi bi-github me-2"></i>
                         <a
                             href={contact.github}
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            {contact.github}
+                            GitHub
                         </a>
                     </p>
 
                     <p className="card-text">
-                        LinkedIn:{" "}
+                        <i className="bi bi-linkedin me-2"></i>
                         <a
                             href={contact.linkedin}
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                            {contact.linkedin}
+                            LinkedIn
                         </a>
                     </p>
-
-                    <p className="card-text">
-                        Website:{" "}
-                        <a
-                            href={contact.website}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            {contact.website}
-                        </a>
-                    </p>
-
                 </div>
             </div>
         </div>

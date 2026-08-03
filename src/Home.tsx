@@ -9,7 +9,7 @@ export default function Home() {
         <div>
             <PageHeader
                 title="Home"
-                description="Hi there! Here you will find my projects."
+                description="Hi there! Here you will find some of my past projects."
             />
             <div className="masonry-container">
                 {
