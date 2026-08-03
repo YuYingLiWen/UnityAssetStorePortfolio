@@ -1,0 +1,39 @@
+html,
+body,
+#root {
+    height: 100%;
+    margin: 0;
+}
+
+
+.app-container {
+    display: flex;
+    height: 100vh;
+}
+
+
+/*
+    Fixed sidebar.
+    It never scrolls.
+*/
+.sidebar {
+    width: 250px;
+    flex-shrink: 0;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+
+/*
+    Content starts after sidebar.
+    Only this area scrolls.
+*/
+.content-area {
+    margin-left: 250px;
+    padding: 30px;
+    width: calc(100% - 250px);
+    height: 100vh;
+    overflow-y: auto;
+}

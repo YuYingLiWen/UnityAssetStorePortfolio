@@ -1,0 +1,51 @@
+.masonry-container {
+
+    column-count: 4;
+
+    column-gap: 1rem;
+
+}
+
+
+/* Prevent cards from splitting */
+.masonry-container > * {
+
+    break-inside: avoid;
+
+}
+
+
+/* Tablet */
+@media (max-width: 1200px) {
+
+    .masonry-container {
+
+        column-count: 3;
+
+    }
+
+}
+
+
+/* Small screens */
+@media (max-width: 900px) {
+
+    .masonry-container {
+
+        column-count: 2;
+
+    }
+
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+
+    .masonry-container {
+
+        column-count: 1;
+
+    }
+
+}
